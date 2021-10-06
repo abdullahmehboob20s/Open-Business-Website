@@ -14,91 +14,160 @@
   </head>
   <body>
     <!-- navbar -->
-    <header class="home-header">
-      <nav class="navbar">
-        <a href="/" class="navbar-brand">
-          <img
-            loading="lazy"
-            src="./assets/images/logo.svg"
-            alt=""
-            class="logo"
-        /></a>
-        <!-- navbar-list -->
-        <div class="navbar-list">
-          <ul class="navbar-nav">
-            <!-- <li class="nav-item">
-              <a href="#" class="nav-link">Pricing</a>
-            </li> -->
-            <li class="nav-item">
-              <a href="#" class="nav-link"
-                >Solutions
+    <div>
+      <header class="home-header">
+        <nav class="navbar">
+          <a href="/" class="navbar-brand">
+            <img
+              loading="lazy"
+              src="./assets/images/logo.svg"
+              alt=""
+              class="logo"
+          /></a>
 
-                <img
-                  class="nav-item-icon"
-                  src="assets/images/arrow_menu_.svg"
-                />
-              </a>
+          <!-- hamburger -->
+          <div class="mob-menu-icon">
+            <img
+              loading="lazy"
+              class="mob-hamburger"
+              src="assets/images/menu_md.svg"
+            />
 
-              <ul class="dropdown">
-                <li>
-                  <img
-                    loading="lazy"
-                    src="assets/images/freelancer_menu_icon.svg"
-                  /><span>Freelancers</span>
+            <span class="mob-cross">×</span>
+          </div>
+
+          <div class="navbar-content">
+            <!-- navbar-list -->
+            <div class="navbar-list">
+              <ul class="navbar-nav">
+                <!-- <li class="nav-item">
+                  <a href="#" class="nav-link">Pricing</a>
+                </li> -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link"
+                    >Solutions
+
+                    <img
+                      class="nav-item-icon"
+                      src="assets/images/arrow_menu_.svg"
+                    />
+                  </a>
+
+                  <ul class="dropdown">
+                    <li>
+                      <img
+                        loading="lazy"
+                        src="assets/images/freelancer_menu_icon.svg"
+                      /><span>Freelancers</span>
+                    </li>
+                    <li>
+                      <img
+                        loading="lazy"
+                        src="assets/images/smes_menu_icon.svg"
+                      /><span>SMEs</span>
+                    </li>
+                    <li>
+                      <img
+                        loading="lazy"
+                        src="assets/images/startups_menu_icon.svg"
+                      /><span>Startups</span>
+                    </li>
+                    <li>
+                      <img
+                        loading="lazy"
+                        src="assets/images/developers_menu_icon.svg"
+                      /><span>Developers</span>
+                    </li>
+                    <li>
+                      <img
+                        loading="lazy"
+                        src="assets/images/partners_menu_icon.svg"
+                      /><span>Partners</span>
+                    </li>
+                  </ul>
                 </li>
-                <li>
-                  <img
-                    loading="lazy"
-                    src="assets/images/smes_menu_icon.svg"
-                  /><span>SMEs</span>
-                </li>
-                <li>
-                  <img
-                    loading="lazy"
-                    src="assets/images/startups_menu_icon.svg"
-                  /><span>Startups</span>
-                </li>
-                <li>
-                  <img
-                    loading="lazy"
-                    src="assets/images/developers_menu_icon.svg"
-                  /><span>Developers</span>
-                </li>
-                <li>
-                  <img
-                    loading="lazy"
-                    src="assets/images/partners_menu_icon.svg"
-                  /><span>Partners</span>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Pricing</a>
                 </li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Pricing</a>
-            </li>
-          </ul>
-        </div>
+            </div>
 
-        <!-- navbar-button -->
+            <!-- navbar-button -->
+            <div class="navbar-button">
+              <a href="#" target="_blank"
+                ><button class="dark-outline-btn">Login</button></a
+              >
+              <a href="#" target="_blank"
+                ><button class="primary-color-btn">Get Started</button></a
+              >
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="navbar-mobile">
+        <div class="mobile-nav">
+          <div class="nav-head mob-active">
+            <span>Solutions</span
+            ><span class="ml-10"
+              ><img loading="lazy" src="/assets/images/up-arrow.svg"
+            /></span>
+          </div>
+          <div class="nav-items">
+            <a
+              ><img
+                loading="lazy"
+                src="assets/images/freelancer_menu_icon.svg"
+              />Freelancers</a
+            ><a
+              ><img
+                loading="lazy"
+                src="assets/images/smes_menu_icon.svg"
+              />SMEs</a
+            ><a
+              ><img
+                loading="lazy"
+                src="assets/images/startups_menu_icon.svg"
+              />Startups</a
+            ><a
+              ><img
+                loading="lazy"
+                src="assets/images/developers_menu_icon.svg"
+              />Developers</a
+            ><a
+              ><img
+                loading="lazy"
+                src="assets/images/partners_menu_icon.svg"
+              />Partners</a
+            >
+          </div>
+          <!---->
+        </div>
+        <div class="mobile-nav">
+          <div class="nav-head">
+            <span>Pricing</span>
+          </div>
+        </div>
         <div class="navbar-button">
-          <a href="#" target="_blank"
+          <a
+            target="_blank"
+            class="nav-link"
+            href="https://app.open.money/login?ref=https://open.money/"
             ><button class="dark-outline-btn">Login</button></a
-          >
-          <a href="#" target="_blank"
+          ><a clas="nav-divnk"
             ><button class="primary-color-btn">Get Started</button></a
           >
         </div>
-      </nav>
-    </header>
+      </div>
+    </div>
 
     <!-- body -->
     <section>
       <div class="home-first-container">
-        <h1 class="main-header">Business Banking</h1>
-        <h1 class="sub-header">that finally gets you</h1>
+        <h1 class="main-header">A task manager you</h1>
+        <h1 class="sub-header">can trust</h1>
         <div class="description">
-          The Open business account comes with a VISA business card that
-          combines banking, payments, <br />
-          accounting, expense management & taxes, in one place.
+          Turia Pro is an office management software for CA, CS, <br />
+          and Tax Consultants
         </div>
 
         <div class="text-center">
@@ -111,7 +180,7 @@
 
         <div class="first-section-image text-center">
           <img
-            src="./assets/images/banner.png"
+            src="./assets/images/demo_img.jpg"
             style="width: 70%; margin-bottom: 20px"
             alt=""
           />
@@ -121,23 +190,36 @@
 
     <!-- trusted-by -->
     <section class="home-business-description">
+      <div class="home-business-description-title">
+        Task Management |
+        <span class="color-dark-green"> Increase Productivity</span> |
+        <span class="color-red"> Client Dashboard </span>|
+        <span class="color-yellow"> Compliance </span><br />
+        <span class="color-yellow"> Alerts </span>|
+        <span class="color-blue"> Document Management </span> |
+        <span class="color-green"> Remote Working </span>
+      </div>
       <div class="first-header text-center">Trusted by</div>
-      <div class="second-header text-center">15,00,000 businesses</div>
+      <div class="second-header text-center">Chartered Accountants</div>
       <div class="third-header text-center">In India</div>
 
       <div class="home-second-container">
         <div class="second-header text-center">
-          The Open business account & VISA business card
+          The key to productivity is Turia Pro
         </div>
 
-        <div class="sub-header">built for businesses</div>
+        <div class="sub-header">Built for Practicing Professionals</div>
 
         <div class="description text-center">
-          Unlike regular bank accounts, the Open business account is built to
-          cater <br />
-          to the unique needs of small businesses. It is most powerful when used
+          Looking for a better way to manage your tasks, You are at the right
+          place!
           <br />
-          alongside your existing account.
+          Turia Pro Task management software specially designed to cater the
+          needs of practicing
+          <br />
+          chartered accountants, CS & Tax Practitioners. Manage your team at
+          your fingertips allot <br />
+          New tasks, track reports & Analyse Productivity of your team.
         </div>
       </div>
 
@@ -209,13 +291,16 @@
     </section>
 
     <!-- manage your startup's -->
-    <section>
-      <div class="text-center mt-100 manage-title">Manage your startup's</div>
-      <div class="text-center manage-subtitle">business banking #LikeAPro</div>
+    <section class="manage-starts">
+      <div class="text-center mt-100 manage-title">
+        Manage your Practice <br />
+        Like A Pro
+      </div>
+      <div class="text-center manage-subtitle">with Turia Pro</div>
 
-      <div class="text-center mt-50">
+      <div class="text-center mt-50 manage-start-button">
         <a href="#" class="d-inline-block" target="_blank"
-          ><button class="primary-color-btn">Get an Open Account</button></a
+          ><button class="primary-color-btn">Get Started</button></a
         >
       </div>
     </section>
@@ -241,10 +326,11 @@
           </div>
 
           <div>
-            <p>Open Financial Technologies Pvt Ltd,</p>
-            <p>Tower 2, 3rd floor, RGA Tech Park,</p>
-            <p>Sarjapur Road, Bengaluru</p>
-            <p>Karnataka - 560035</p>
+            <p>Startup Huts</p>
+            <p>27th Main Rd, opp. KLM</p>
+            <p>Fashion Mall, HSR Layout,</p>
+            <p>Bangalore, Karnataka</p>
+            <p>560102</p>
           </div>
         </div>
 
@@ -255,7 +341,7 @@
               <a routerlink="/about-us" href="/about-us">About Us</a>
             </li>
             <li>
-              <a routerlink="/career" href="/career">Careers</a>
+              <a routerlink="/career" href="/career">Jobs</a>
             </li>
             <li>
               <a href="https://open.money/blog" target="_blank">Blog</a>
@@ -263,68 +349,38 @@
             <li>
               <a routerlink="/contact-us" href="/contact-us">Contact Us</a>
             </li>
-            <li>
-              <a href="https://help.bankopen.com">Help Center</a>
-            </li>
-            <!---->
-            <li>
-              <a routerlink="/privacy" href="/privacy">Privacy Policy</a>
-            </li>
-            <!---->
-            <li>
-              <a routerlink="/tnc" href="/tnc">Terms &amp; Conditions</a>
-            </li>
-            <!---->
-            <li>
-              <a routerlink="/grievance-policy" href="/grievance-policy"
-                >Grievance Policy</a
-              >
-            </li>
-            <!---->
           </ul>
         </div>
 
         <div class="mb-20">
-          <h5>Product</h5>
+          <h5>Data & Privacy</h5>
           <ul>
             <li>
               <a
                 routerlink="/products/business-current-account"
                 href="/products/business-current-account"
-                >Open Business Account</a
+                >Terms & Conditions</a
               >
             </li>
             <li>
               <a routerlink="/products/cards" href="/products/cards"
-                >Open Card</a
-              >
-            </li>
-            <li>
-              <a
-                routerlink="/products/payment-gateway"
-                href="/products/payment-gateway"
-                >Payment Gateway</a
-              >
+                >Privacy Policy
+              </a>
             </li>
           </ul>
         </div>
 
         <div class="mb-20">
-          <h5>Developers</h5>
+          <h5>Lets Talk</h5>
           <ul>
             <li>
               <a target="_blank" href="https://docs.bankopen.com"
-                >Documentation</a
-              >
+                >Connect with our support team
+              </a>
             </li>
             <li>
               <a target="_blank" href="https://docs.bankopen.com/reference"
-                >API Reference</a
-              >
-            </li>
-            <li>
-              <a routerlink="/banking/api-banking" href="/banking/api-banking"
-                >API Banking Guide</a
+                >Support@turia.in</a
               >
             </li>
           </ul>
