@@ -146,3 +146,9 @@ html body .hide {
     width: 400px;
   }
 }
+
+@media (max-width: 760px) {
+  html body main {
+    margin-top: 4rem;
+  }
+}
