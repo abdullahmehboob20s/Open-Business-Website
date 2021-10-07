@@ -587,6 +587,7 @@ a {
   line-height: auto;
   font-weight: 800;
   color: #192b40;
+  margin: 0;
 }
 
 .fourth-desc {
@@ -1333,9 +1334,6 @@ a {
     color: #192b40;
   }
 
-  .home-fifth-container {
-  }
-
   .home-fifth-container .fifth-sub-container .description {
     font-size: 14px;
     line-height: 22px;
@@ -1537,6 +1535,14 @@ a {
   .home-9-container .home-9-sub-second .sec-3 .sec-list .shadeline {
     transform: rotate(0deg);
     /* border: 2px solid red; */
+  }
+
+  .sub-container-second {
+    padding: 0 0rem;
+  }
+
+  .home-9-container .home-9-sub-second .sec-3 {
+    padding-right: 0px;
   }
 }
 
